@@ -3,7 +3,7 @@ using ProjetoModeloDDD.Domain.Interfaces;
 
 namespace ProjetoModeloDDD.Infra.Data.Repositories
 {
-    public class CLienteRepository:RepositoryBase<Cliente>, IClienteRepository
+    public class ClienteRepository:RepositoryBase<Cliente>, IClienteRepository
     {
     }
 }

@@ -1,4 +1,8 @@
+using ProjetoModeloDDD.MVC.AutoMapper;
+
 var builder = WebApplication.CreateBuilder(args);
+
+AutoMapperConfig.RegisterMappings();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
